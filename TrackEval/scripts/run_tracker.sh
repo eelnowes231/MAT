@@ -20,7 +20,7 @@ log="$out/log_$model.txt"
 
 ###############################################
 # EDIT TO YOUR OWN MAT PATH
-mat="" # ex) ./MAT
+mat="/home/n0/mlvu014/Programs/MAT" # ex) ./MAT
 trackeval="$mat/TrackEval" # ex) ./MAT/TrackEval
 ###############################################
 

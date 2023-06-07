@@ -27,10 +27,10 @@ Adapt to your your own paths
 ## 2. Run TrackEval
 ``` 
 # Usage
-python ./MAT/TrackEval/scripts/run_mot_challenge.py --BENCHMARK AnimalTrack --SPLIT_TO_EVAL <train/test> --USE_PARALLEL False --DO_PREPROC False
+python ./MAT/TrackEval/scripts/run_mot_challenge.py --BENCHMARK AnimalTrack --SPLIT_TO_EVAL <train/test> --USE_PARALLEL False --DO_PREPROC False --TRACKERS_TO_EVAL <tracker-model>
 
 # ex. 
-python ./MAT/TrackEval/scripts/run_mot_challenge.py --BENCHMARK AnimalTrack --SPLIT_TO_EVAL train --USE_PARALLEL False --DO_PREPROC False 
+python ./MAT/TrackEval/scripts/run_mot_challenge.py --BENCHMARK AnimalTrack --SPLIT_TO_EVAL train --USE_PARALLEL False --DO_PREPROC False --TRACKERS_TO_EVAL DeepSORT
 ```
 - more options available in `TrackEval/scripts/run_mot_challenge.py`
 
